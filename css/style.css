@@ -1,0 +1,673 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+/*Navbar Start*/
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    transition: all linear .5s;
+}
+
+.navbg {
+    background: #83ae9b;
+    box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.75);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Nunito';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    transition: all linear 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+    font-family: 'Nunito';
+}
+
+/*Navbar End*/
+
+/*Banner Start*/
+#banner {
+    background: url(../images/banner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 205px;
+    padding-bottom: 205px;
+    clip-path: ellipse(90% 100% at 50% 0%);
+    margin-bottom: 100px;
+}
+
+.banner-item h1 {
+    font-family: 'Nunito';
+    font-size: 3rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.banner-item p {
+    font-family: 'Nunito';
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fff;
+}
+
+.myButton {
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -o-border-radius: 35px;
+}
+
+.banner-item a {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    width: 125px;
+    height: 45px;
+    line-height: 45px;
+    background: #83ae9b;
+    transition: all linear .3s;
+    font-family: 'Nunito';
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+}
+
+.banner-item a:hover {
+    box-shadow: 0px 9px 9px 3px rgba(0, 0, 0, 0.6);
+    background: #c8c8a9;
+}
+
+/*Banner End*/
+
+/*Services Start*/
+#services {
+    margin-bottom: 100px;
+}
+
+.services-items h1 {
+    font-family: 'Nunito';
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.services-items p {
+    font-family: 'Nunito';
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 24px;
+    color: #666;
+}
+
+.services-block {
+    background: #83ae9b;
+    padding: 30px;
+    border-radius: 1rem;
+}
+
+.services-block:hover {
+    background: #648677;
+    box-shadow: 0 14px 18px 0 rgba(17, 17, 17, 0.24), 0 17px 50px 0 rgba(255, 255, 255, 0.50);
+}
+
+.services-block i {
+    color: #fff;
+    font-size: 40px;
+}
+
+.services-block h2 {
+    font-family: 'Nunito';
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.services-block p {
+    font-family: 'Nunito';
+    color: #fff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+}
+
+/*Services End*/
+
+/*About Start*/
+#about {
+    margin-bottom: 50px;
+}
+
+.about-image {
+    width: 100%;
+    height: 100%;
+}
+
+.about-item h1 {
+    font-family: 'Nunito';
+    font-size: 3rem;
+    font-weight: 700;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.nav-tabs a {
+    font-family: 'Nunito';
+    font-size: 1.123rem;
+    font-weight: 500;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.nav-tabs .nav-link {
+    border: transparent;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    background: #648677;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px 0 rgba (0, 0, 0.1)
+}
+
+.tab-pane {
+    font-family: 'Nunito';
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    text-align: justify;
+}
+
+.nav-link.active {
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+
+.about {
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.about h2 {
+    position: relative;
+}
+
+.about h2:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #333;
+    top: 280px;
+}
+
+.abt-btm {
+    padding-top: 200px;
+}
+
+.about a {
+    font-family: 'Nunitos';
+    font-size: 16px;
+    font-weight: 600;
+    width: 125px;
+    height: 45px;
+    line-height: 45px;
+    background: #83ae9b;
+    transition: all linear .3s;
+    font-family: 'Nunito';
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.about a:hover {
+    box-shadow: 0px 9px 9px 3px rgba(0, 0, 0, 0.6);
+    background: #c8c8a9;
+}
+
+/*About End*/
+
+/*Counter Start*/
+#counterup {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #83AE9B;
+    margin-bottom: 100px;
+}
+
+.conter-item h1 {
+    font-family: 'Montserrat';
+    font-size: 4rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.conter-item h3 {
+    font-family: 'Nunito';
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+/*Counter End*/
+
+/*Testimonial Start*/
+#testimonial {
+}
+
+.monial {
+    background: #83ae9b;
+/*    box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.6);*/
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 25px;
+    padding-bottom: 90px;
+    clip-path: ellipse(90% 100% at 50% 0%);
+
+}
+
+.monial p {
+    padding-bottom: 30px;
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 1rem;
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: justify;
+}
+
+
+.test-pic {
+    background: #fff;
+    position: relative;
+    top: -210px;
+    left: 50%;
+    z-index: 6;
+    width: 133px;
+    height: 133px;
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+.test-pic img {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    border-radius: 50%;
+}
+
+.names {
+    padding-top: 75px;
+    padding-bottom: 30px;
+    box-shadow: 1px 5px 10px 1px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+.names h3 {
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 1.123rem;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.slide-left i {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    color: #83ae9b;
+    padding-top: 14px;
+    border: 1px solid #83ae9b;
+    position: absolute;
+    top: -107px;
+    left: 15px;
+    transition: all linear .3s;
+
+}
+
+.slide-right i {
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    color: #83ae9b;
+    padding-top: 14px;
+    border: 1px solid #83ae9b;
+    position: absolute;
+    top: -107px;
+    left: 73px;
+    transition: all linear .3s;
+}
+
+.slide i:hover {
+    background: #83ae9b;
+    color: #fff;
+    border: none;
+}
+/*Testimonial End*/
+
+/*Team Start*/
+#team {
+    margin-bottom: 100px;
+}
+
+.item-img {
+    position: relative;
+    clip-path: ellipse(90% 100% at 50% 0%);
+
+}
+
+.t-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.team-item:hover .t-overlay {
+    opacity: 0.9;
+    height: 100%;
+}
+
+.t-overlay i{
+    position: relative;
+    bottom: -50%;
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    background: #83ae9b;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: all linear .3s;
+}
+
+.t-overlay i:hover {
+    border: 1px solid #83ae9b;
+    background: #fff;
+    color: #83ae9b;
+}
+.team-info {
+    text-align: center;
+    padding-top: 40px;
+}
+
+.team-info h3 {
+    font-family: 'Montserrat';
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.team-info p {
+    font-family: 'Nunito';
+    font-size: 1rem;
+    font-weight: 300;
+    color: #999;
+    text-transform: capitalize;
+    font-style: italic;
+}
+/*Team End*/
+
+
+/*Footer Start*/
+#footer {
+    background: linear-gradient(60deg, rgb(131, 174, 155) 0%, rgba(0, 172, 193, 1) 100%);
+}
+
+.footer-part h3 {
+    font-family: 'Nunito';
+    font-weight: 700;
+    color: #fff;
+    font-size: 22px;
+}
+
+.footer-part a {
+    padding-bottom: 3px;
+    font-family: 'Nunito';
+    font-weight: 500;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.footer-part span {
+    padding-bottom: 3px;
+    font-family: 'Nunito';
+    font-weight: 500;
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    text-decoration: none;
+}
+
+.wave {
+    position: relative;
+    text-align: center;
+    background: linear-gradient(60deg, rgb(131, 174, 155) 0%, rgba(0, 172, 193, 1) 100%);
+    color: white;
+}
+
+.logo {
+    width: 50px;
+    fill: white;
+    padding-right: 15px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.inner-header {
+    height: 20vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    /*Flexbox for containers*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    /*Fix for safari gap*/
+    min-height: 100px;
+    max-height: 150px;
+}
+
+.inner-header h1 {
+    font-family: 'Nunito';
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.socials a {
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 10px;
+    transition: all linear .3;
+}
+
+.socials a:hover {
+    background: #fff;
+    color: #83ae9b;
+    box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.6);
+}
+
+.copy {
+    position: relative;
+    height: 10vh;
+    text-align: center;
+    background-color: #fff;
+}
+
+.copy p {
+    font-family: 'Nunito';
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.copy a {
+    font-family: 'Nunito';
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    text-decoration: none;
+}
+
+.copy a:hover {
+    color: #666;
+}
+
+/* Animation */
+.parallax > use {
+    animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+    animation-delay: -2s;
+    animation-duration: 7s;
+}
+
+.parallax > use:nth-child(2) {
+    animation-delay: -3s;
+    animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+    animation-delay: -4s;
+    animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+    animation-delay: -5s;
+    animation-duration: 20s;
+}
+
+@keyframes move-forever {
+    0% {
+        transform: translate3d(-90px, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(85px, 0, 0);
+    }
+}
+
+/*Shrinking for mobile*/
+@media (max-width: 768px) {
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+
+    .copy {
+        height: 30vh;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+}
+
+/*Footer End*/
+
+/*Back to top Start*/
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.back-to-top i {
+    width: 40px;
+    height: 40px;
+    background: #83ae9b;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+
+.back-to-top i:hover {
+    color: #333;
+}
+
+/*Back to top End*/
+
+background: rgb(131, 174, 155);
